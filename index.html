@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- En-tête de la page -->
+    <meta charset="utf-8" />
+    <title>Titre</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/front.js"></script>
+</head>
+
+<body>
+<div id="overflow">
+
+    <div class="overflowContent">
+       <a class="closeCross"><i class="icon-cross"></i></a>
+        <span class="button connect active" data-contain="containConnect">Connexion</span>
+        <span class="button inscription" data-contain="containInscription">Inscription</span>
+        <div class="containConnect">
+            <div class="containForm">
+                <form>
+                    <input type="text" name="login" placeholder="Email"/>
+                    <input type="password" name="password" placeholder="Mot de passe"/>
+                    <div class="rememberMe">
+                            <input type="checkbox" value="None" id="squaredOne" name="check" />
+                      Se souvenir de moi
+                    </div>
+                    <button type="submit">
+                        <span class="icon-key"></span>Se connecter</button>
+                </form>
+            </div>
+            <a href="" class="forgotPassword"><span class="icon-leftArrow"></span>J'ai oublié mon mot de passe</a>
+        </div>
+        <div class="containInscription">
+            <div class="containForm">
+                <form>
+                    <input type="text" name="Email" placeholder="Email"/>
+                    <input type="password" name="password" placeholder="Mot de passe"/>
+                    <input type="password" name="password2" placeholder="Confirmer votre mot de passe"/>
+                    <button type="submit">
+                        S'inscrire</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<header>
+    <div class="container">
+        <div id="logo">
+            LOGO
+        </div>
+        <ul>
+            <li>Accueil</li>
+            <li>En savoir plus</li>
+            <li>Nous contacter</li>
+            <li class="connexion"><span class="icon-key"></span></li>
+        </ul>
+    </div>
+</header>
+<div id="contentTitle">
+    <div class="container">
+        <h1>I need money</h1>
+        <h2>Gérer, analyser, prévoyer son budget !</h2>
+    </div>
+</div>
+<div id="svgDiagonale">
+    <svg class="decor" height="100%" preserveAspectRatio="none" version="1.1" viewBox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M0 0 L100 100 L0 100" stroke-width="0"></path></svg>
+
+</div>
+<div id="content">
+    <div class="container">
+        <h1>gestion pas à pas</h1>
+        <p>Une gestion poussée afin de connaitre, et de prévoir votre budget à n'importe quel moment de l'année.</p>
+      <div class="containStep">
+          <div class="stepByStep">
+               <div class="circleStep">
+                   <img src="images/custom-icon-composer.png">
+               </div>
+               <h3>Bourse</h3>
+               <p>Rentrer ton budget</p>
+          </div>
+          <div class="stepByStep">
+               <div class="circleStep">
+                   <img src="images/custom-icon-iphone-white.png">
+               </div>
+               <h3>Fléche</h3>
+               <p> Prélévement dépense crédit</p>
+          </div>
+          <div class="stepByStep">
+               <div class="circleStep">
+                   <img src="images/custom-icon-clipboard.png">
+               </div>
+               <h3>Graphiques</h3>
+               <p> Prélévement dépense crédit</p>
+          </div>
+          <div class="stepByStep">
+               <div class="circleStep">
+                   <img src="images/custom-icon-bag.png">
+               </div>
+               <h3>Calendrier</h3>
+               <p>Visualiser votre budget et vos dépense selon une date précise</p>
+          </div>
+       </div>
+       <a class="buttonMore">En savoir plus</a>
+    </div>
+</div>
+<div id="svgDiagonaleInverse">
+    <svg class="decor" height="100%" preserveAspectRatio="none" version="1.1" viewBox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M0 0 L100 100 L0 100" stroke-width="0"></path></svg>
+
+</div>
+<footer>
+
+</footer>
+<!-- Corps de la page -->
+</body>
+</html>
